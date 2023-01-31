@@ -17,7 +17,7 @@ export const ADD_PROJECT = gql`
 			name
 			description
 			status
-			client {
+			clientId {
 				id
 				name
 				email
@@ -46,7 +46,7 @@ export const EDIT_PROJECT = gql`
 			name
 			description
 			status
-			client {
+			clientId {
 				id
 				name
 				email
