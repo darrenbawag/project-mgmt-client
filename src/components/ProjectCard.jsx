@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
             <a href={`/projects/${project.id}`} className="btn btn-secondary">View</a>
           </div>
           <p className="small mb-0">Status: <span className="fw-semibold">{project.status}</span></p>
-          <p className="small">Client: <span className="fw-semibold">{project.client.name}</span></p>
+          <p className="small">Client: <span className="fw-semibold">{project.clientId.name}</span></p>
         </div>
       </div>
     </div>

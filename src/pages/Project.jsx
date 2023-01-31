@@ -35,7 +35,7 @@ const Project = () => {
 					<h5 className="mt-3">Project Status</h5>
 					<p className="lead fw-normal">{data.project.status}</p>
 
-					<ClientInfo client={data.project.client} />
+					<ClientInfo client={data.project.clientId} />
 
 					<div className="d-flex gap-3 mt-5 ms-auto">
 						<EditProjectButton project={data.project} />

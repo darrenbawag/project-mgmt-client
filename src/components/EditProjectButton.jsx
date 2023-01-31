@@ -14,7 +14,7 @@ const EditProjectButton = ({ project }) => {
 
   const [name, setName] = useState(project.name);
 	const [description, setDescription] = useState(project.description);
-	const [clientId, setClientId] = useState(project.client.id);
+	const [clientId, setClientId] = useState(project.clientId.id);
 	const [status, setStatus] = useState(statusObj[project.status]);
 
   const { loading, error, data } = useQuery(GET_CLIENTS)
