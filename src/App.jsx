@@ -25,9 +25,9 @@ const cache = new InMemoryCache({
 });
 
 const client = new ApolloClient({
-  uri: "http://localhost:5000/graphql",
-  cache
-})
+	uri: "https://project-mgmt-4c7jolhpv-darrenbawag.vercel.app/graphql",
+	cache,
+});
 
 function App() {
   return (
